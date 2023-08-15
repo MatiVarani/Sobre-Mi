@@ -21,8 +21,6 @@ Si desea borrar los numeros ingresado en los campos solo debe presionar el boton
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 * [HTML] - Creacion del sitio Web.
 * [CSS3] - Apariencia del sitio Web.
 * [JavaScript] - Ejecuta todas las funciones de las operaciones y el sitio Web.
