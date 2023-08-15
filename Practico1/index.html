@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- icono pagina -->
+    <link rel="icon" href="img/Calculator.png"  type="image/jpg">
+
+    <!-- Titulo Pestaña -->
+    <title>MV Calculadora</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <!-- Ingreso de Operando 1 -->
+        <input type="texto" id="operando1" placeholder="Operando 1"/>
+        
+        <!-- Menu desplegable de operaciones -->
+        <select id="operador">
+            <option value="suma">+</option>
+            <option value="resta">-</option>
+            <option value="division">/</option>
+            <option value="multiplicacion">*</option>
+            <option value="promedio">X̄</option>
+        </select>
+
+        <!-- Ingreso de Operando 2 -->
+        <input type="texto" id="operando2" placeholder="Operando 2"/>
+
+        <!-- Boton para realizar el calculo -->
+        <button class="borrar" onclick="borrar()">Borrar Operandos</button>
+        <button class="boton" onclick="main()">Calcular</button>
+        
+        <!-- Resultado de la operacion -->
+        <div class="Result"><p id="resultado">Resultado: </p></div>
+    </div>
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
