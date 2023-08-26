@@ -1,4 +1,4 @@
-# Piedra, Papel o Tijera
+# Piedra, Papel o Tijera :rock: :page_with_curl: :scissors: 
 
 El obejtivo del proyecto es la programacion del juego Piedra, Papel o Tijera en una Pagina Web con componentes dinamicos. 
 En este Sitio Web se podra seleccionar las cantidad de partidas a jugar en contra de la computadora.
