@@ -1,10 +1,10 @@
-# Piedra, Papel o Tijera :rock: :page_with_curl: :scissors: 
+# Piedra, Papel o Tijera :rock: :page_facing_up: :scissors: 
 
 El obejtivo del proyecto es la programacion del juego Piedra, Papel o Tijera en una Pagina Web con componentes dinamicos. 
 En este Sitio Web se podra seleccionar las cantidad de partidas a jugar en contra de la computadora.
 Para este desarrollo web se utilizó HTML, CCS3 y JavaScript.
 
-### Pre-requisitos :page_with_curl:
+### Pre-requisitos :page_facing_up:
 
 _Para ejecutar este proyecto solo necesitas un navegador instalado en tu equipo._
 
@@ -16,7 +16,7 @@ _Para ejecutar este proyecto solo necesitas un navegador instalado en tu equipo.
 
 * `script.js` Archivo [JavaScript] utilizado para añadir todas las caracteristicas interactivas o dinámicas de la Pagina Web.
 
-## PARTE 2: Obtención del nombre del jugador :technologist:
+## PARTE 2: Obtención del nombre del jugador :man_technologist:
 
    Para obtener el nombre del jugador se utiliza una funcion JavaScript.
 
@@ -28,14 +28,14 @@ _Para ejecutar este proyecto solo necesitas un navegador instalado en tu equipo.
    
    * `obtenerJugadaComputadora()`: Mediante esta funcion en el codigo JavaScript la computadora obtiene un numero *random* entre de 0, 1 o 2 del tipo entero. Cada uno de éstos representa una jugada (Piedra, Papel o Tijera) posible para la computadora, la cual, es mostrada explícita y graficamente en la pagina web.
 
-## PARTE 4: Determinación del ganador y actualización del marcador :trophy:
+## PARTE 4: Determinación del ganador y actualización del marcador :trophy:git 
 
    * Cuando el jugador selecciona su jugada y la computadora obtiene la suya aleatoriamente segun la parte 3, se ejecuta una funcion para obtener al ganador de la partida. 
 
    * `determinarGanador(jugadaComputadoraN,jugadaUsuarioN)`: Esta funcion determina el ganador segun la eleccion del jugador y la jugada de la computadora, que se le pasan por parametros a la funcion.
    Una vez determinado el ganador de la partida, la funcion actualiza el marcador correspondiente y muestra el resultado de la partida en la pagina web.
 
-## PARTE 5: Control del juego
+## PARTE 5: Control del juego :control_knobs:
 
    La cantidad de partidas a jugar es determinada mediante un selector que permite escojer entre 1 y 10 partidas. 
    
@@ -43,31 +43,31 @@ _Para ejecutar este proyecto solo necesitas un navegador instalado en tu equipo.
 
    * `ultimaJugada()`: Por cada una de las jugadas del usuario se disminuye el contador verificando a traves de esta funcion que si el contador llega a cero indica que es la ultima partida y ejecuta la funcion `ObtResultado()`.
 
-## PARTE 6: Anunciar al ganador y reiniciar el juego
+## PARTE 6: Anunciar al ganador y reiniciar el juego :1st_place_medal:
 
    * Por cada eleccion del usuario el codigo ejecuta la funcion `ganadorParcial()` la que verifica si alguno de los jugadores tuvo más jugadas ganadas que la mitad de partidas seleccionadas anteriormente. Determinando así el ganador antes de jugar la totalidad de partidas.
 
    * `ObtResultado()`: Funcion ejecutada por las dos ultimas (`ultimaJugada()` y `ganadorParcial()`). La misma verifica las victorias acumuladas por cada uno de los jugadores y muestra en la pagina web el resultado final del juego.
 
-## PARTE 7: Mejoras y personalización
+## PARTE 7: Mejoras y personalización :artist:
 
-   Con el sitio web y sus caracteristicas interactivas en funcionamiento se aplicaron los estilos al mismo mediante CSS para hacerlo mas atractivo con colores, imagenes y transiciones sobre los elementos de la página. 
+   * Con el sitio web y sus caracteristicas interactivas en funcionamiento se aplicaron los estilos al mismo mediante CSS para hacerlo mas atractivo con colores, imagenes y transiciones sobre los elementos de la página. 
 
-## PARTE 8: Comentarios explicativos y optimización del código
+## PARTE 8: Comentarios explicativos y optimización del código :label:
 
-   Cuando el proyecto se encontró completamente funcional al juego, se agregaron los comentarios correspondiente en cada uno de los archivos o codigos desarrollados para explicar cada una de las funciones o acciones de las partes. 
+   * Cuando el proyecto se encontró completamente funcional al juego, se agregaron los comentarios correspondiente en cada uno de los archivos o codigos desarrollados para explicar cada una de las funciones o acciones de las partes. 
 
-## PARTE 9: Prueba y depuración
+## PARTE 9: Prueba y depuración :gear:
 
    + Se prueba el funcionamiento de todo el código, mediante diferentes opciones disponibles y se comparte con colegas y amigos para que lo ejecuten y puedan correrlo. 
    
    + Ayudando a la deteccion de errores y depuracion para asegurarse de que el codigo funciona correctamente. Se corrige y ajusta los errores detectados. 
 
-## PARTE 10: Documentación y entrega
+## PARTE 10: Documentación y entrega :books:
 
    + Se agrega este Readme.md que documenta el codigo desarrollado para este proyecto y se cargan todos los archivos al repositorio de GitHub.
 
-## Construido con 🛠️
+## Programacion :technologist:
 
 * [HTML] - Creacion del sitio Web.
 * [CSS3] - Apariencia del sitio Web.
