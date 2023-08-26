@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+    
+        <!-- icono pagina - Manos con señas-->
+        <link rel="icon" href="img/Cartoon.png"  type="image/jpg">
+    
+        <!-- Titulo Pestaña Navegador-->
+        <title>Piedra-Papel-Tijera</title>
+    </head>
+
+    <body>
+        <div class="header">
+
+        <!-- Titulo del juego -->
+        <h3>Juego: Piedra, Papel o Tijera</h3>
+
+                <!-- Menu desplegable Cantidad de Jugadas -->
+                <h5>Cantidad de Jugadas:
+                <select class="canJugadas" id="canJugadas">
+                    <option value=0>Seleccionar</option>
+                    <option onclick="partidas()" value=1>1</option>
+                    <option onclick="partidas()" value=2>2</option>
+                    <option onclick="partidas()" value=3>3</option>
+                    <option onclick="partidas()" value=4>4</option>
+                    <option onclick="partidas()" value=5>5</option>
+                    <option onclick="partidas()" value=6>6</option>
+                    <option onclick="partidas()" value=7>7</option>
+                    <option onclick="partidas()" value=8>8</option>
+                    <option onclick="partidas()" value=9>9</option>
+                    <option onclick="partidas()" value=10>10</option>
+                </select>
+                <br></h5>
+
+                <!-- Botones para reset del juego e ingresar nombre del jugador-->
+                <button class="button" onclick="borrar()">Reset</button>
+                <button class="button" onclick="obtNombre()"><span id="btnNombre">Ingresar Jugador</span></button>
+                <br>
+                <br>
+        </div>
+
+        <div class="row">
+        <!-- Columna jugadas computadora-->
+        <div class="column1"><u>Computadora</u>
+            <p class="PCResult" id="jugada">Jugada:<p><span id="PCjugada"></span></div>
+
+        <!-- Columna jugada Gráfica computadora (Imagen con la jugada) y Resultado Numerico-->
+        <div class="column2">
+            <div><img id="imgcomputadora" src="img/Gif.gif" alt="" class="img"></div>
+            <div><p class="resultn" id="resNPC">0</p></div>
+        </div>
+
+        <!-- Columna jugada Gráfica jugador (Imagen con la jugada) y Resultado Numerico-->
+        <div class="column3">
+            <div><img id="imgjugador" src="img/Gif.gif" alt="" class="img"></div>
+            <div><p class="resultn" id="resNJug">0</p></div>
+        </div>
+
+        <!-- Columna Jugador (Nombre e imagenes con las jugadas posibles)-->
+        <div class="column4"><u>Jugador:</u> <span id="jugador"></span>
+            <br>
+            <br><input class="imagen" type="image" id="piedra" src="img/Piedra.png" height="50" width="50"/><i class="notas"> Piedra </i>
+            <br>
+            <br><input class="imagen" type="image" id="papel" src="img/Papel.png" height="50" width="50"/><i class="notas"> Papel </i>
+            <br>
+            <br><input class="imagen" type="image" id="tijera" src="img/Tijera.png" height="50" width="50"/><i class="notas"> Tijera </i>
+            <br>
+            <br>
+            <p class="notas">Presione para elegir su jugada</p>
+            </div>
+        </div>
+
+        <!-- footer con los resultados parciales y finales -->
+        <div class="footer">
+        <p class="result"><p id="resultadoParcial"></p></p>
+        <p class="result"><p id="resultado"></p></p>
+        </div>
+
+        <!-- Script que ejecuta para las caracteristicas interactivas -->
+        <script src="js/script.js"></script>
+</body>
+</html>
