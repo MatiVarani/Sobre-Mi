@@ -4,11 +4,11 @@ El obejtivo del proyecto es la programacion del juego Piedra, Papel o Tijera en 
 En este Sitio Web se podra seleccionar las cantidad de partidas a jugar en contra de la computadora.
 Para este desarrollo web se utilizó HTML, CCS3 y JavaScript.
 
-### Pre-requisitos 📋
+### Pre-requisitos :page_with_curl:
 
 _Para ejecutar este proyecto solo necesitas un navegador instalado en tu equipo._
 
-## PARTE 1: Estructura del Proyecto
+## PARTE 1: Estructura del Proyecto :building_construction:
 
 * `index.html` Archivo [HMTL] donde se estructura la Página Web del proyecto y sus contenidos.
 
@@ -16,19 +16,19 @@ _Para ejecutar este proyecto solo necesitas un navegador instalado en tu equipo.
 
 * `script.js` Archivo [JavaScript] utilizado para añadir todas las caracteristicas interactivas o dinámicas de la Pagina Web.
 
-## PARTE 2: Obtención del nombre del jugador
+## PARTE 2: Obtención del nombre del jugador :technologist:
 
    Para obtener el nombre del jugador se utiliza una funcion JavaScript.
 
    * `obtenerJugadaComputadora()` : Esta funcion ejecuta un prompt para que el jugador pueda ingresar su nombre. Comprueba que el nombre no sean espacios vacios y esta vinculada mediante un evento de tipo *onclick* con el *boton* ingresar nombre y la eleccion del jugador.
 
-## PARTE 3: Selección de la opción del jugador y del oponente (PC)
+## PARTE 3: Selección de la opción del jugador y del oponente (PC) :joystick:
 
    * Para la eleccion del jugador se establecen tres *input* de tipo imagen, vinculadas mediante a un evento *onclick* ejecutando una serie de funciones para cada eleccion.
    
    * `obtenerJugadaComputadora()`: Mediante esta funcion en el codigo JavaScript la computadora obtiene un numero *random* entre de 0, 1 o 2 del tipo entero. Cada uno de éstos representa una jugada (Piedra, Papel o Tijera) posible para la computadora, la cual, es mostrada explícita y graficamente en la pagina web.
 
-## PARTE 4: Determinación del ganador y actualización del marcador
+## PARTE 4: Determinación del ganador y actualización del marcador :trophy:
 
    * Cuando el jugador selecciona su jugada y la computadora obtiene la suya aleatoriamente segun la parte 3, se ejecuta una funcion para obtener al ganador de la partida. 
 
