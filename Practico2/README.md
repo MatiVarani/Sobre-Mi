@@ -28,7 +28,7 @@ _Para ejecutar este proyecto solo necesitas un navegador instalado en tu equipo.
    
    * `obtenerJugadaComputadora()`: Mediante esta funcion en el codigo JavaScript la computadora obtiene un numero *random* entre de 0, 1 o 2 del tipo entero. Cada uno de éstos representa una jugada (Piedra, Papel o Tijera) posible para la computadora, la cual, es mostrada explícita y graficamente en la pagina web.
 
-## PARTE 4: Determinación del ganador y actualización del marcador :trophy:git 
+## PARTE 4: Determinación del ganador y actualización del marcador :trophy: 
 
    * Cuando el jugador selecciona su jugada y la computadora obtiene la suya aleatoriamente segun la parte 3, se ejecuta una funcion para obtener al ganador de la partida. 
 
